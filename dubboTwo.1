@@ -1,0 +1,27 @@
+[2019-03-06 17:39:43.786] - 19088 信息 [main] --- org.apache.catalina.core.StandardService: Starting service [Tomcat]
+[2019-03-06 17:39:43.788] - 19088 信息 [main] --- org.apache.catalina.core.StandardEngine: Starting Servlet Engine: Apache Tomcat/8.5.34
+[2019-03-06 17:39:43.798] - 19088 信息 [localhost-startStop-1] --- org.apache.catalina.core.AprLifecycleListener: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\app\wangy\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;E:\apache-maven-3.5.4\bin;E:\SVN-Tortoise\bin;E:\PortableGit\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\sonar-scanner-3.2\bin;D:\Tesseract-OCR\Tesseract-OCR;D:\Git\cmd;C:\Users\wangy\AppData\Local\Microsoft\WindowsApps;;.]
+[2019-03-06 17:39:44.077] - 19088 信息 [localhost-startStop-1] --- org.apache.jasper.servlet.TldScanner: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2019-03-06 17:39:44.082] - 19088 信息 [localhost-startStop-1] --- org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/dubboTwo]: Initializing Spring embedded WebApplicationContext
+[2019-03-06 17:39:48.875] - 19088 信息 [http-nio-8094-exec-1] --- org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/dubboTwo]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-03-06 17:39:49.168] - 19088 警告 [New I/O worker #1] --- com.alibaba.com.caucho.hessian.io.SerializerFactory: Hessian/Burlap: 'com.dubbo.one.model.entity.ItemInfo' is an unknown class in TomcatEmbeddedWebappClassLoader
+  context: dubboTwo
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@18b4aac2
+:
+java.lang.ClassNotFoundException: com.dubbo.one.model.entity.ItemInfo
+[2019-03-06 17:41:08.068] - 19088 警告 [New I/O worker #4] --- com.alibaba.com.caucho.hessian.io.SerializerFactory: Hessian/Burlap: 'com.dubbo.one.model.entity.ItemInfo' is an unknown class in TomcatEmbeddedWebappClassLoader
+  context: dubboTwo
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@18b4aac2
+:
+java.lang.ClassNotFoundException: com.dubbo.one.model.entity.ItemInfo
+[2019-03-06 17:41:08.069] - 19088 警告 [New I/O worker #4] --- com.alibaba.com.caucho.hessian.io.SerializerFactory: Hessian/Burlap: 'com.dubbo.one.model.entity.ItemInfo' is an unknown class in TomcatEmbeddedWebappClassLoader
+  context: dubboTwo
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@18b4aac2
+:
+java.lang.ClassNotFoundException: com.dubbo.one.model.entity.ItemInfo
